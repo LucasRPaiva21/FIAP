@@ -2,7 +2,7 @@
 
 <p align="center">
 <a href="https://www.fiap.com.br/">
-  <img src="../../assets/logo-fiap.png" 
+  <img src="../../../assets/logo-fiap.png" 
        alt="FIAP - Faculdade de Informática e Administração Paulista" 
        width="40%">
 </a>
@@ -65,7 +65,7 @@ A partir desses dados, o sistema toma decisões automáticas sobre ligar ou desl
 
 
 <p align="center">
-  <img src="../../assets/sensorWokwi.png" 
+  <img src="../../../assets/sensorWokwi.png" 
        alt="Simulação de Sistema de Irrigação Inteligente - Wokwi" 
        width="40%">
 </a>
