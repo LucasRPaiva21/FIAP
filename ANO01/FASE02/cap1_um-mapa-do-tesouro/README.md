@@ -81,7 +81,7 @@ A partir desses dados, o sistema toma decisões automáticas sobre ligar ou desl
 
 A arquitetura do circuito está dividida em quatro blocos principais
 
-##### Sensores de Nutrientes (NPK)
+- ##### Sensores de Nutrientes (NPK)
 
 Na parte superior esquerda da simulação, estão posicionados três botões:
 
@@ -96,7 +96,7 @@ Botão solto → nível baixo do nutriente
 
 Essa abordagem simula sensores agrícolas de forma didática.
 
-##### Sensor de Umidade e Temperatura (DHT22)
+- ##### Sensor de Umidade e Temperatura (DHT22)
 
 Localizado na parte superior direita:
 
@@ -107,7 +107,7 @@ Temperatura (°C)
 
 Apesar de ser um sensor de ar, ele foi adaptado para representar a umidade do solo no contexto da simulação.
 
-##### Sensor de pH (via LDR)
+- ##### Sensor de pH (via LDR)
 
 Na parte inferior esquerda, observa-se o módulo com ajuste (trimpot), representando o sensor:
 
@@ -120,7 +120,7 @@ Valores próximos de 7 → pH neutro
 Valores baixos → solo ácido
 Valores altos → solo alcalino
 
-##### Atuador - Relé (Bomba de Irrigação)
+- ##### Atuador - Relé (Bomba de Irrigação)
 
 Na parte inferior direita:
 
@@ -173,11 +173,11 @@ Essa informação é utilizada diretamente na lógica do sistema de irrigação,
 
 O funcionamento do sistema segue as seguintes etapas:
 
-1. Entrada do Usuário
+1. #### Entrada do Usuário
 
 O usuário informa o nome da cidade que deseja consultar.
 
-2. Geolocalização da Cidade
+2. #### Geolocalização da Cidade
 
 A partir do nome informado, o sistema realiza uma requisição HTTP para a API de geolocalização da OpenWeather, que retorna:
 
@@ -189,14 +189,14 @@ Essas informações são essenciais para consultas meteorológicas mais precisas
 Caso a API não retorne dados ou a resposta seja inválida, o sistema exibe uma mensagem de erro ao usuário.
 Caso contrário, o fluxo segue para a próxima etapa.
 
-3. Consulta das Condições Climáticas
+3. #### Consulta das Condições Climáticas
 
 Utilizando a latitude e longitude obtidas, o sistema realiza uma nova requisição para a API de clima da OpenWeather, que retorna dados detalhados da região.
 
 Em caso de falha na requisição ou dados inconsistentes, o sistema trata o erro adequadamente.
 Em caso de sucesso, os dados são processados para extração das informações relevantes.
 
-4. Análise da Resposta da API
+4. #### Análise da Resposta da API
 
 O sistema acessa o campo:
 
