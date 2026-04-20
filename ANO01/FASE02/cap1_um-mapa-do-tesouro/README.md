@@ -19,9 +19,13 @@
 
 ## 👨‍🎓 Integrantes:
 Andrews Oliveira
+
 Arthur Camacho
+
 Esther Barreto
+
 Lucas Ramalho Paiva
+
 Maria Carolina Tozelli
 
 ## 👩‍🏫 Professores:
