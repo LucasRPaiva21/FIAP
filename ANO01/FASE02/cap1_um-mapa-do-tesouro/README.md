@@ -48,6 +48,12 @@ Durante esta fase, foram utilizadas as seguintes tecnologias:
 
 ### 📌 Projeto 1 — Sistema de Irrigação Inteligente com ESP32
 
+## 🎥 Vídeo de Apresentação
+
+Assista à apresentação completa do projeto no YouTube:
+
+[![Assistir no YouTube](https://img.shields.io/badge/YouTube-Assistir%20Apresentação-red?style=for-the-badge&logo=youtube)](https://youtu.be/1kFHE9vJz0U)
+
 **Descrição:**  
 🌱 Projeto: Sistema de Irrigação Inteligente com ESP32 (Simulação Wokwi)
 
